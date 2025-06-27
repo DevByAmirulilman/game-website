@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/DevByAmirulilman/game-website/static/css/main.dc4d6ff2.css",
-    "main.js": "/DevByAmirulilman/game-website/static/js/main.84dc8eb1.js",
-    "static/js/453.ea6db93a.chunk.js": "/DevByAmirulilman/game-website/static/js/453.ea6db93a.chunk.js",
-    "index.html": "/DevByAmirulilman/game-website/index.html",
-    "main.dc4d6ff2.css.map": "/DevByAmirulilman/game-website/static/css/main.dc4d6ff2.css.map",
-    "main.84dc8eb1.js.map": "/DevByAmirulilman/game-website/static/js/main.84dc8eb1.js.map",
-    "453.ea6db93a.chunk.js.map": "/DevByAmirulilman/game-website/static/js/453.ea6db93a.chunk.js.map"
+    "main.css": "/game-website/static/css/main.dc4d6ff2.css",
+    "main.js": "/game-website/static/js/main.c3b62009.js",
+    "static/js/453.ea6db93a.chunk.js": "/game-website/static/js/453.ea6db93a.chunk.js",
+    "index.html": "/game-website/index.html",
+    "main.dc4d6ff2.css.map": "/game-website/static/css/main.dc4d6ff2.css.map",
+    "main.c3b62009.js.map": "/game-website/static/js/main.c3b62009.js.map",
+    "453.ea6db93a.chunk.js.map": "/game-website/static/js/453.ea6db93a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dc4d6ff2.css",
-    "static/js/main.84dc8eb1.js"
+    "static/js/main.c3b62009.js"
   ]
 }
