@@ -1,13 +1,35 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
+import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+//Redux Setup
+import {applyMiddleware, compose, createStore} from 'redux';
+import rootReducers from './reducers';
+import {Provider} from 'react-redux';
+import {thunk} from 'redux-thunk';
+
+import {BrowserRouter} from 'react-router-dom';
+import { createRoot } from 'react-dom/client';
+
+const composeEnhancer = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+
+const store = createStore(
+  rootReducers,
+  composeEnhancer(applyMiddleware(thunk))
+  );
+
+  const container = document.getElementById('root');
+const root = createRoot(container);
+
+
 root.render(
   <React.StrictMode>
-    <App />
+    <Provider store={store}>
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    </Provider>
   </React.StrictMode>
 );
 
