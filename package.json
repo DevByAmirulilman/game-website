@@ -2,7 +2,7 @@
   "name": "game-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/DevByAmirulilman/game-website/",
+  "homepage": "https://devbyamirulilman.github.io/game-website",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",

@@ -11,7 +11,7 @@ function App() {
       <Nav />
       <Routes>
         {/* Handles both "/" and "/games/:id" */}
-        <Route path="/game-website" element={<MainContent />} />
+        <Route path="/" element={<MainContent />} />
         <Route path="/game/:id" element={<GameDetail />} />
       </Routes>
     </Box>
